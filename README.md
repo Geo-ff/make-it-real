@@ -2,6 +2,13 @@
 
 [中文说明](README.zh-CN.md)
 
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-6f2da8?style=flat-square)
+![Codex](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
+![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Extension-4285F4?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-Compatible-007ACC?style=flat-square)
+![License](https://img.shields.io/github/license/Geo-ff/make-it-real?style=flat-square)
+![Release](https://img.shields.io/github/v/release/Geo-ff/make-it-real?style=flat-square)
+
 **From a vague idea to a build-ready spec.**
 
 Make It Real is a portable AI-agent skill that helps users turn rough ideas into clear project definitions, delivery scopes, implementation notes, and AI-agent handoff tasks.

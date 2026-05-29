@@ -2,6 +2,13 @@
 
 [English](README.md)
 
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-6f2da8?style=flat-square)
+![Codex](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
+![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Extension-4285F4?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-Compatible-007ACC?style=flat-square)
+![License](https://img.shields.io/github/license/Geo-ff/make-it-real?style=flat-square)
+![Release](https://img.shields.io/github/v/release/Geo-ff/make-it-real?style=flat-square)
+
 **把一个模糊想法，变成可以交给 AI 或开发工具执行的项目方案。**
 
 Make It Real 是一个可移植的 AI-agent skill，用来把粗略想法梳理成清晰的项目定义、交付范围、实现思路和任务交接文档。

@@ -211,3 +211,7 @@ For Codex plugin validation, validate the repository root as a plugin package wi
 ## License
 
 MIT
+
+## Community
+
+Discuss Make It Real on [LINUX DO](https://linux.do).

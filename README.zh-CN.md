@@ -215,3 +215,7 @@ python -m py_compile skills/make-it-real/scripts/create_project_docs.py
 ## 许可证
 
 MIT
+
+## 社区
+
+欢迎在 [LINUX DO](https://linux.do) 交流和反馈 Make It Real。

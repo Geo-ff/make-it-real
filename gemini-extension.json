@@ -1,0 +1,6 @@
+{
+  "name": "make-it-real",
+  "version": "0.1.0",
+  "description": "Guided discovery for turning rough ideas into project specs and AI-agent handoff tasks.",
+  "contextFileName": "GEMINI.md"
+}

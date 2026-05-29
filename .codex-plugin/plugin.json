@@ -1,0 +1,43 @@
+{
+  "name": "make-it-real",
+  "version": "0.1.0",
+  "description": "A portable AI-agent skill for turning vague ideas into build-ready project specs, delivery scopes, and handoff tasks.",
+  "author": {
+    "name": "Geoff",
+    "url": "https://github.com/Geo-ff"
+  },
+  "homepage": "https://github.com/Geo-ff/make-it-real",
+  "repository": "https://github.com/Geo-ff/make-it-real",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "product-discovery",
+    "requirements",
+    "prd",
+    "planning",
+    "vibe-coding",
+    "ai-agents",
+    "handoff"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Make It Real",
+    "shortDescription": "Turn vague ideas into build-ready specs and AI-agent tasks",
+    "longDescription": "Use Make It Real to guide users from a rough idea through adaptive discovery, confirmed delivery scope, staged project documents, and AI-agent handoff tasks.",
+    "developerName": "Geoff",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me turn a rough idea into a clear project plan.",
+      "Clarify my app idea and create coding-agent tasks.",
+      "Turn this vague product idea into a confirmed V1 scope."
+    ],
+    "websiteURL": "https://github.com/Geo-ff/make-it-real",
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

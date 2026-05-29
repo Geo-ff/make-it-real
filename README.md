@@ -94,6 +94,22 @@ The canonical skill source is `skills/make-it-real/SKILL.md`.
 
 ## Installation
 
+### skills CLI
+
+Install directly with the open `skills` CLI:
+
+```bash
+npx skills add Geo-ff/make-it-real --skill make-it-real -y
+```
+
+To inspect the detected skill before installing:
+
+```bash
+npx skills add Geo-ff/make-it-real --list
+```
+
+This is the recommended cross-agent installation path for tools that support the open skills format. Public installs through the `skills` CLI also make the skill eligible for skills.sh discovery through anonymous install telemetry; the skills.sh listing may take time to refresh.
+
 ### Claude Code
 
 Install from the stable release tag:

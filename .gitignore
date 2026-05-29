@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+Thumbs.db
+
+tmp-docs-test*/
+docs/make-it-real/
+
+.env
+.env.*

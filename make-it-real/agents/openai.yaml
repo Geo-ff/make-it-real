@@ -1,0 +1,4 @@
+interface:
+  display_name: "Make It Real"
+  short_description: "Turn vague ideas into actionable project specs"
+  default_prompt: "Use $make-it-real to turn my rough idea into a clear project plan and task handoff for execution or AI agents."

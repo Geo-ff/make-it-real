@@ -9,11 +9,13 @@
 ![License](https://img.shields.io/github/license/Geo-ff/make-it-real?style=flat-square)
 ![Release](https://img.shields.io/github/v/release/Geo-ff/make-it-real?style=flat-square)
 
-**From a vague idea to a build-ready spec.**
+**Turn a spark of thought into a clear path forward.**
 
-Make It Real is a portable AI-agent skill that helps users turn rough ideas into clear project definitions, delivery scopes, implementation notes, and AI-agent handoff tasks.
+In an age where anyone can vibe code, you may have a brilliant idea you want to bring to life, but no clear sense of where to begin.
 
-It is designed for the moment when someone says, "I want to build something, but I do not know how to start." The skill guides an AI assistant through adaptive, choice-first discovery so the user does not need to already understand product management, software architecture, or prompt design.
+Make It Real helps you gradually uncover what it will take to make that idea real: what needs to be prepared, which technologies may be involved, what decisions matter, and what risks or constraints should be considered. You do not need to already understand product management, software architecture, or prompt design. Make It Real guides the AI assistant through choice-first questions until the whole project becomes clear enough to execute.
+
+You bring the brainstorm. Make It Real turns it into a path.
 
 ## Example Output
 

@@ -9,11 +9,15 @@
 ![License](https://img.shields.io/github/license/Geo-ff/make-it-real?style=flat-square)
 ![Release](https://img.shields.io/github/v/release/Geo-ff/make-it-real?style=flat-square)
 
-**把一个模糊想法，变成可以交给 AI 或开发工具执行的项目方案。**
+**一念成章，令万事有径。**
 
-Make It Real 是一个可移植的 AI-agent skill，用来把粗略想法梳理成清晰的项目定义、交付范围、实现思路和任务交接文档。
+凡有所思，未明其径；设问以导之，析事以成章，使一念可付诸行。
 
-它适合用户说出“我想做一个东西，但不知道怎么开始”的场景。用户不需要先懂产品经理方法、软件架构或提示词设计；这个 skill 会引导 AI 助手通过选择题优先的方式逐步追问，把想法补全到可以执行的程度。
+在人人都可以 Vibe Coding 的时代，或许你有一些奇妙的想法想落地，但是不知道如何开始。
+
+不用担心，通过 Make It Real，你可以逐步了解这个想法落地需要做哪些准备，需要什么技术，需要考虑什么。你不需要先懂产品经理方法、软件架构或提示词设计，Make It Real 会引导 AI 助手通过选择题优先的方式逐步追问，直到你脑袋里完全清楚整个项目的所有细节，帮你把想法补全到可以执行的程度。
+
+你只需要头脑风暴就好了，剩下的交给 Make It Real。
 
 ## 示例效果
 

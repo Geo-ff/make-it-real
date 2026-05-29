@@ -1,27 +1,34 @@
 {
   "name": "make-it-real",
-  "display_name": "Make It Real",
-  "description": "Turn rough ideas into clear project specs, selected delivery scopes, and AI-agent handoff tasks.",
-  "long_description": "Make It Real helps AI assistants ask adaptive, choice-first questions before implementation. It is useful when a user wants to build, launch, automate, teach, operate, or plan something but only has a vague starting idea.",
-  "author": {
+  "metadata": {
+    "description": "A marketplace for the Make It Real plugin, which turns rough ideas into project specs and AI-agent handoff tasks."
+  },
+  "owner": {
     "name": "Geoff",
     "url": "https://github.com/Geo-ff"
   },
-  "homepage": "https://github.com/Geo-ff/make-it-real",
-  "repository": "https://github.com/Geo-ff/make-it-real",
-  "license": "MIT",
-  "categories": [
-    "productivity",
-    "planning",
-    "ai-skills"
-  ],
-  "keywords": [
-    "skills",
-    "product-discovery",
-    "requirements",
-    "prd",
-    "vibe-coding",
-    "ai-agents",
-    "handoff"
+  "plugins": [
+    {
+      "name": "make-it-real",
+      "description": "Turn rough ideas into clear project specs, selected delivery scopes, and AI-agent handoff tasks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Geoff",
+        "url": "https://github.com/Geo-ff"
+      },
+      "source": "./",
+      "homepage": "https://github.com/Geo-ff/make-it-real",
+      "repository": "https://github.com/Geo-ff/make-it-real",
+      "license": "MIT",
+      "tags": [
+        "skills",
+        "product-discovery",
+        "requirements",
+        "prd",
+        "vibe-coding",
+        "ai-agents",
+        "handoff"
+      ]
+    }
   ]
 }

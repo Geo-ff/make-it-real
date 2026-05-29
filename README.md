@@ -81,25 +81,66 @@ The canonical skill source is `skills/make-it-real/SKILL.md`.
 
 ## Installation
 
+### Claude Code
+
+Install from the stable release tag:
+
+```text
+/plugin marketplace add Geo-ff/make-it-real@v0.1.0
+/plugin install make-it-real@make-it-real
+```
+
+For development or latest changes, omit the tag and add `Geo-ff/make-it-real`.
+
+After installation, ask Claude Code to use Make It Real when clarifying a vague idea. In Claude Code environments that expose plugin namespaces directly, the skill namespace is `make-it-real:make-it-real`.
+
+### Gemini CLI
+
+Install from the stable release tag:
+
+```bash
+gemini extensions install https://github.com/Geo-ff/make-it-real --ref v0.1.0
+```
+
+For development or latest changes, install from the default branch:
+
+```bash
+gemini extensions install https://github.com/Geo-ff/make-it-real
+```
+
 ### Codex
 
-Use the repository as a plugin package, or copy `skills/make-it-real/` into your Codex skills directory.
+Use the repository as a plugin package when your Codex environment supports plugin packages. For a direct local skill install, copy `skills/make-it-real/` into your Codex skills directory.
 
-### Claude / Claude Code
+Bash example:
 
-Use the repository as a plugin package if your Claude environment supports plugins. Otherwise, add `skills/make-it-real/SKILL.md` and the relevant files under `skills/make-it-real/references/` as project instructions.
+```bash
+git clone https://github.com/Geo-ff/make-it-real.git /tmp/make-it-real
+mkdir -p ~/.codex/skills
+cp -R /tmp/make-it-real/skills/make-it-real ~/.codex/skills/
+```
+
+PowerShell example:
+
+```powershell
+git clone https://github.com/Geo-ff/make-it-real.git "$env:TEMP\make-it-real"
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills"
+Copy-Item -Recurse -Force "$env:TEMP\make-it-real\skills\make-it-real" "$env:USERPROFILE\.codex\skills\make-it-real"
+```
 
 ### Cursor
 
 Use `.cursor-plugin/plugin.json` as the plugin entry point when your Cursor setup supports plugin packages. Otherwise, reference `skills/make-it-real/SKILL.md` in your agent instructions.
 
-### Gemini
-
-Use `gemini-extension.json` with `GEMINI.md` as the context entry point.
-
 ### Generic AI Agents
 
 Use `AGENTS.md` as the root instruction file and point the agent to `skills/make-it-real/SKILL.md`.
+
+## Release
+
+The first stable tag is `v0.1.0`.
+
+Use the tag when you want reproducible installs. Use the default branch when you want the latest changes.
 
 ## Usage
 

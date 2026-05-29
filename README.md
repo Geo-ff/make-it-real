@@ -8,6 +8,10 @@ Make It Real is a portable AI-agent skill that helps users turn rough ideas into
 
 It is designed for the moment when someone says, "I want to build something, but I do not know how to start." The skill guides an AI assistant through adaptive, choice-first discovery so the user does not need to already understand product management, software architecture, or prompt design.
 
+## Example Output
+
+![Make It Real English example output](assets/screenshots/make-it-real-en.png)
+
 ## Why It Exists
 
 AI coding tools have made implementation easier, but unclear ideas still produce unclear projects. Make It Real focuses on the missing step between inspiration and execution:
